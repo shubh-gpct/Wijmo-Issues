@@ -7,7 +7,7 @@ function init() {
     const company = ['acla bejm','trescot','bon app','utydasb sd'];
     const city = ['berlin','london','moscow','mexico'];
 
-    const data = [];
+    const data = []; 
     for (var i = 0; i < 20; i++) {
         data.push({
             customer: customers[i % customers.length],
